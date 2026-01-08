@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --primary-color: #3E3632;
+    --secondary-color: #B2501F;
+    --tertiary-color: #FFEFD6;
+    --fourth-color: #DFD1BE;
+
+}
+.back{
+    width: 600px;
+    height: 5000px;
+    background-color: var(--tertiary-color);
+    padding-top: 10px;
+}
+nav{
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 10px;
+    font-weight: 14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-radius: 40%; */
+}
+header .leaf-one{
+    height: 24px;
+    width: 24px;
+}
+.second-col{
+    height: 750px;
+    background-color: var(--primary-color);
+    margin-top: -30px;
+}
+header .logo{
+    padding: 35px;
+
+}
+.first-para{
+    font-family: "Qwitcher Grypen", cursive;
+    color: var(--tertiary-color);
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+}
+.second-para{
+    color: var(--tertiary-color);
+    font-weight: 42px;
+    padding: 5px 10px 10px;
+}
+.third-para{
+    color: var(--tertiary-color);
+    padding: 10px 30px;
+}
+header a, main a{
+    height: auto;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-weight: 16px;
+}
+.section-two{
+    color: var(--secondary-color);
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 40px;
+    padding-top: 40px;
+}
+.para-section-two{
+    color: var(--secondary-color);
+    font-weight: 40px;
+}
+.para-two{
+    color: var(--secondary-color);
+    padding: 10px 10px 10px 20px;
+}
+
+main img{
+    width: 325px;
+    height: 363px;
+}
+.heading{
+    color: var(--secondary-color);
+    font-weight: 40px;
+    display: flex;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+}
+.paragraph{
+    display: flex;
+    text-align: center;
+    width: 402px;
+    /* padding-right: 150px; */
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+main a{
+    text-align: left;
+}
+.button-one{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.heading-two{
+    color: var(--secondary-color);
+    font-weight: 40px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+}
+.paragraph-two{
+    display: flex;
+    text-align: center;
+    width: 402px;
+    /* padding-right: 150px; */
+    color: var(--primary-color);
+}
+.change-col{
+    height: 800px;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    margin-top: 40px;
+    padding-top: 80px;
+}
+.change-col h2,h1{
+    color: var(--tertiary-color);
+}
+.change-col h2{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 100px;
+}
+.change-col .change-head{
+    padding-bottom: 50px;
+}
+.change-col p{
+    width: 382px;
+    padding: 10px;
+    color: var(--tertiary-color);
+}
+.button-two{
+    margin-top: -120px;
+    padding: 20px;
+}
+.change-col-two{
+    height: 500px;
+    background-color: var(--fourth-color);
+    margin-top: 80px;
+    border-radius: 40px;
+}
+.change-col-inside{
+    height: 370px;
+    background-color: var(--primary-color);
+    margin-top: -440px;
+    border-radius: 40px;
+}
+.change-col-inside img{
+    width: 50px;
+    height: 50px;
+    padding-top: 40px;
+}
+.change-col-inside h2{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 100px;
+    color: var(--tertiary-color);
+}
+.change-col-inside p{
+    width: 476px;
+    color: var(--tertiary-color);
+    padding-top: 20px;
+}
+.change-col-inside .button-three{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* footer */
+
+footer{
+    height: 250px;
+    background-color: var(--primary-color);
+    margin-top: 90px;
+    border-radius: 40px;
+    padding: 40px;
+}
+footer a img{
+    width: 24px;
+    height: 24px;
+    background-color: var(--tertiary-color);
+    border-radius: 40px;
+    
+}
+footer h2,p{
+    color: var(--tertiary-color);
+}
+footer h2{
+    font-weight: 14px;
+    font-size: smaller;
+}
+footer p{
+    font-size: small;
+}
+footer a{
+    color: var(--tertiary-color);
+    font-size: smaller;
+}
+.last-one{
+    padding: 20px;
+}
+footer .logo{
+    padding: 10px;
+}
